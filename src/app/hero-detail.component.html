@@ -1,0 +1,14 @@
+<div>
+    <h2>{{heroDetail.name}} details!</h2>
+
+    <div>
+        <label>id: </label>{{heroDetail.id}}
+    </div>
+
+    <div>
+        <label>name: </label>{{heroDetail.name}}
+    </div>
+
+    <input [(ngModel)]="heroDetail.name" placeholder="name" />
+    <button (click)="goBack()"></button>
+</div>
